@@ -2,16 +2,18 @@
 
 Send Emails In One Click With Python.
 
-- Step 1
-Create App Password in gmail.
+- ## Step 1 Create App Password in gmail.
 
-1. GO to Account setting/Security
-2. click app password
-3. Select APP -> others, Select Device -> Others
-4. Copy paste the code in script.py `password` variable
+  1. GO to Account setting/Security
+  2. click app password
+  3. Select APP -> others, Select Device -> Others
+  4. Copy paste the code in script.py `password` variable
 
-- Step 2
-Enter Email address in emaillist.py file.
+- ## Step 2 Enter Email address in [emaillist.py](emaillist.py) file.
+
+- ## Step 3 Run the Script
+
+### Project
 
 - Project: Portfolio Project
 - Author: CodePerfectPlus
