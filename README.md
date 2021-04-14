@@ -10,12 +10,14 @@
 
 Send Emails In One Click With Python.
 
-- ## Step 1 Create App Password in gmail.
+## Step 1 Create App Password in gmail.
 
  - GO to Account setting/Security
  - click app password
  - Select APP -> others, Select Device -> Others
  - Copy paste the code in script.py `password` variable
+
+## Usage
 
 - multipleSenderScript.py - Send message to 1 person from different emails once.
 - multipleReceiver.py - Send msg to multiple person from one email(like: news Letter)
@@ -26,6 +28,11 @@ Send Emails In One Click With Python.
 ## Reuirements
 
 - python-fire `pip install fire`
+
+## Upcoming features
+
+- Use RegEx to verify the Email
+- store crediantials in pc
 
 ### Project
 

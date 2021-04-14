@@ -3,17 +3,17 @@ import email.message
 server = smtplib.SMTP('smtp.gmail.com:587')
 
 from JuneContent import content
-from emaillist import emails
+
+listofemail =  ["destination1@gmail.com", "destination2@gmail.com"] # List of Email id for sending emails
 
 # get email_app_password from account/security 
 # https://myaccount.google.com/security
 def sendEmail():
     email_content = content
-    listofemail =  emails # List of Email id for sending emails
 
     msg = email.message.Message()
-    msg['Subject'] = 'email_subject_here'  #write the subject of your mail here
-    msg['From'] = 'youEmail@gmail.com'    #write your email address here
+    msg['Subject'] = 'email_subject_here'  # write the subject of your mail here
+    msg['From'] = 'youEmail@gmail.com'    # write your email address here
     password = "your gmail app password"   # create app password in accounts/security and paste here
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(email_content)
@@ -29,6 +29,6 @@ def sendEmail():
         s.sendmail(msg['From'], dest, msg.as_string())
         print(f"sending to {dest}")
 
-
-sendEmail()
-print("Email/s successfully sent. Please check your sentbox for confirmation.")
+if __name__ == '__main__':
+    sendEmail()
+    print("Email/s successfully sent. Please check your sentbox for confirmation.")
