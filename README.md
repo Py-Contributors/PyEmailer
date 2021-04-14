@@ -8,6 +8,8 @@
 
 ![Visitor Count](https://profile-counter.glitch.me/PyEmailer/count.svg)
 
+**Blog On Python, Machine Learning and Data Science Visit [CodePerfectPLus](http://codeperfectplus.herokuapp.com/)**
+
 ## Create App Password in gmail.
 
 - GO to Account setting/Security
