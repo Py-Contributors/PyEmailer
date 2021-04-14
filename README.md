@@ -17,13 +17,13 @@
 
 ## Usage
 
-- multipleSenderScript.py - Send message to 1 person from different emails once.
-- multipleReceiver.py - Send msg to multiple person from one email(like: news Letter)
+- multipleSenderScript.py - Send Email to 1 person from different emails once.
+- multipleReceiver.py - Send Email to multiple person from one email(like: news Letter)
 
-- CommandLineEmailScript.py - Send one msg at a time using command line tool
+- oneToOneEmail.py - Send one Email to one person at a time using command line tool
 
 ```bash
-python commandLineEmailScript.py destination@email.com
+python oneToOneEmail.py destination@email.com
 ```
 
 ## Reuirements
