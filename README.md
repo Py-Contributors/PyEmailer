@@ -36,8 +36,8 @@ python oneToOneEmail.py destination@email.com
 
 ## Upcoming features
 
-- RegEx to verify the Emails 
-- storing credentials in pc
+- file attachment in email
+- ~~RegEx to verify the Emails~~
 
 ### Project
 
