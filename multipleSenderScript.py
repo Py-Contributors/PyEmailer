@@ -22,10 +22,8 @@ def sendEmail():
         s = smtplib.SMTP('smtp.gmail.com: 587')
         s.starttls()
 
-        
         # Login Credentials for sending the mail
         s.login(msg['From'], password)
-
 
         s.sendmail(msg['From'], destinationEmail, msg.as_string())
         print(f"[INFO]: Sending msg from {key}")

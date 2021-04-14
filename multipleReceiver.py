@@ -2,15 +2,13 @@ import smtplib
 import email.message
 server = smtplib.SMTP('smtp.gmail.com:587')
 
-from JuneContent import content
-
 listofemail =  ["destination1@gmail.com", "destination2@gmail.com"] # List of Email id for sending emails
+
+email_content = "<h1> Email Content can be html too</h1>"
 
 # get email_app_password from account/security 
 # https://myaccount.google.com/security
 def sendEmail():
-    email_content = content
-
     msg = email.message.Message()
     msg['Subject'] = 'email_subject_here'  # write the subject of your mail here
     msg['From'] = 'youEmail@gmail.com'    # write your email address here

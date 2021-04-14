@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=Email%20Sending%20with%20Python&fontSize=50)
+
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-360/)
 ![issues](https://img.shields.io/github/issues/codePerfectPlus/Email-Sending-Script-Python?style=plastic)
 ![forks](https://img.shields.io/github/forks/codePerfectPlus/Email-Sending-Script-Python)
@@ -6,16 +8,12 @@
 
 ![Visitor Count](https://profile-counter.glitch.me/Email-Sending-Script-Python/count.svg)
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=Email%20Sending%20with%20Python&fontSize=50)
+## Create App Password in gmail.
 
-Send Emails In One Click With Python.
-
-## Step 1 Create App Password in gmail.
-
- - GO to Account setting/Security
- - click app password
- - Select APP -> others, Select Device -> Others
- - Copy paste the code in script.py `password` variable
+- GO to Account setting/Security
+- click app password
+- Select APP -> others, Select Device -> Others
+- Copy paste the code in script.py `password` variable
 
 ## Usage
 
@@ -23,23 +21,26 @@ Send Emails In One Click With Python.
 - multipleReceiver.py - Send msg to multiple person from one email(like: news Letter)
 
 - CommandLineEmailScript.py - Send one msg at a time using command line tool
-`python commandLineEmailScript.py destination@email.com`
+
+```bash
+python commandLineEmailScript.py destination@email.com
+```
 
 ## Reuirements
 
 - python-fire `pip install fire`
 
+`python -m pip install - requirements.txt`
+
 ## Upcoming features
 
-- Use RegEx to verify the Email
-- store crediantials in pc
+- RegEx to verify the Emails 
+- storing credentials in pc
 
 ### Project
 
-- Project: Portfolio Project
+- Project: Email-Sending-with-Python
 - Author: CodePerfectPlus
-- Language: Python, JavaScript
+- Language: Python
 - Github: https://github.com/codePerfectPlus
 - Website: http://codeperfectplus.herokuapp.com/
-
-![footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=footer&)

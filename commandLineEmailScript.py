@@ -7,10 +7,9 @@ import email.message
 import fire
 server = smtplib.SMTP('smtp.gmail.com:587')
 
-from JuneContent import content
+email_content = "<h1> Email Content can be html too</h1>"
 
 def sendEmail(destinationEmail):
-    email_content = content
 
     msg = email.message.Message()
     msg['Subject'] = 'your_subject_here'  #write the subject of your mail here
