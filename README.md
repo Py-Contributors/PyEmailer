@@ -1,12 +1,12 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=Email%20Sending%20with%20Python&fontSize=50)
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=PyEmailer&fontSize=50)
 
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-360/)
-![issues](https://img.shields.io/github/issues/codePerfectPlus/Email-Sending-Script-Python?style=plastic)
-![forks](https://img.shields.io/github/forks/codePerfectPlus/Email-Sending-Script-Python)
-![stars](https://img.shields.io/github/stars/codePerfectPlus/Email-Sending-Script-Python)
-![License](https://img.shields.io/github/license/codePerfectPlus/Email-Sending-Script-Python)
+![issues](https://img.shields.io/github/issues/codePerfectPlus/PyEmailer?style=plastic)
+![forks](https://img.shields.io/github/forks/codePerfectPlus/PyEmailer)
+![stars](https://img.shields.io/github/stars/codePerfectPlus/PyEmailer)
+![License](https://img.shields.io/github/license/codePerfectPlus/PyEmailer)
 
-![Visitor Count](https://profile-counter.glitch.me/Email-Sending-Script-Python/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/PyEmailer/count.svg)
 
 ## Create App Password in gmail.
 
