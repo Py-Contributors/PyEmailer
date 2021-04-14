@@ -39,7 +39,7 @@ python commandLineEmailScript.py destination@email.com
 
 ### Project
 
-- Project: Email-Sending-with-Python
+- Project: PyEmailer
 - Author: CodePerfectPlus
 - Language: Python
 - Github: https://github.com/codePerfectPlus
