@@ -5,6 +5,8 @@ server = smtplib.SMTP('smtp.gmail.com:587')
 from JuneContent import content
 from emaillist import emails
 
+# get email_app_password from account/security 
+# https://myaccount.google.com/security
 def sendEmail():
     email_content = content
     listofemail =  emails # List of Email id for sending emails

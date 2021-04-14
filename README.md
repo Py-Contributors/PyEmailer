@@ -17,9 +17,15 @@ Send Emails In One Click With Python.
  - Select APP -> others, Select Device -> Others
  - Copy paste the code in script.py `password` variable
 
-- ## Step 2 Enter Email address in [emaillist.py](emaillist.py) file.
+- multipleSenderScript.py - Send message to 1 person from different emails once.
+- multipleReceiver.py - Send msg to multiple person from one email(like: news Letter)
 
-- ## Step 3 Run the Script
+- CommandLineEmailScript.py - Send one msg at a time using command line tool
+`python commandLineEmailScript.py destination@email.com`
+
+## Reuirements
+
+- python-fire `pip install fire`
 
 ### Project
 
