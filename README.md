@@ -30,7 +30,7 @@ python oneToOneEmail.py destination@email.com
 
 - python-fire `pip install fire`
 
-`python -m pip install - requirements.txt`
+`python -m pip install -r requirements.txt`
 
 ## Upcoming features
 
