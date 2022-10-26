@@ -17,7 +17,6 @@
 - Select APP -> others, Select Device -> Others
 - Copy paste the code in script.py `password` variable
 
-
 ## Usage
 
 ```bash
