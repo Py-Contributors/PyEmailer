@@ -12,10 +12,11 @@
 
 ## Create App Password in gmail.
 
-- GO to Account setting/Security
+- GO to Account [setting/Security](https://myaccount.google.com/security)
 - click app password
 - Select APP -> others, Select Device -> Others
 - Copy paste the code in script.py `password` variable
+
 
 ## Usage
 
