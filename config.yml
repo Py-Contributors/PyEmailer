@@ -1,1 +1,5 @@
+smtp_server: "your_smtp_server"
+port: your_port_number
+email: "your_email_address"
+password: "your_email_password"
 
